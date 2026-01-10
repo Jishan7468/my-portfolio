@@ -58,8 +58,9 @@ nav .menu a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1332px;
+    max-width: 1600px;
    margin: 46px 38px 0 230px;
+   border: 1px solid black;
 }
 #banner .banner-content h2{
     font-size: 45px;
@@ -85,13 +86,14 @@ nav .menu a{
 #banner .banner-content{
  
  max-width: 600px;
-
 }
 header{
     background: url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
-    margin-top: 10px;
+    background-position: left,bottom right;
     
     
+}
+#banner .banner-image img{
+    vertical-align: middle;
 }
