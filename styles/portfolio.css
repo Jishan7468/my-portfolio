@@ -22,7 +22,7 @@ header{
     color: white;
     font-size: 20px;
     font-weight: bold;
-    cursor:  ;
+    cursor:  pointer;
 }
 nav{
     width:71%;
@@ -58,9 +58,10 @@ nav .menu a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1600px;
+    max-width: 1800px;
    margin: 46px 38px 0 230px;
-   border: 1px solid black;
+
+
 }
 #banner .banner-content h2{
     font-size: 45px;
@@ -96,4 +97,37 @@ header{
 }
 #banner .banner-image img{
     vertical-align: middle;
+}
+#about{
+    text-align: center;
+    padding-top: 130px;
+}
+#about .about-info{
+    padding: 131px 157px 163px 156px;
+    background-color: #fff8f3;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+   
+
+
+}
+#about .about-info .about-info-card{
+    display: flex;
+    justify-content: space-around;
+    max-width: 782px;
+
+}
+#about .about-info h2{
+    font-size: 35px;
+    color: #181818;
+
+}
+#about .about-info P{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+#about .about-info .about-info-card h4,p{
+    font-size: 20px;
 }
